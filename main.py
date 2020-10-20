@@ -7,7 +7,7 @@ import streamlit as st
 def main():
     st.sidebar.title("NLP applications")
     mode  = st.sidebar.selectbox("Choose your demo",
-        ["Topic classification","Sentiment analysis", "Text summarization"])
+        ["Topic classification","Sentiment analysis"])
 
     if mode == "Topic classification":
         topics_identifier()
@@ -15,8 +15,8 @@ def main():
     elif mode == "Sentiment analysis":
         sentiment_analyzer()
 
-    elif mode == "Text summarization":
-        text_summarizer()
+    # elif mode == "Text summarization":
+    #    text_summarizer()
     
     # elif mode == "Question answering":
     #    question_answering()

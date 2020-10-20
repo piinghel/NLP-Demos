@@ -31,7 +31,7 @@ def predict(model,
 def topics_identifier():
 
     st.title('Topics identifier')
-    st.text("Identifies user provided topcis in the text. You can choose your own text and topics/theme.")
+    #st.text("Identifies user provided topcis in the text. You can choose your own text and topics/theme.")
 
     # get text and topics
     example_text = """We are asking our stockholders to approve an amendment and restatement of our 2012 ESPP to increase the share reserve by 2,000,000 shares. The Board recommends a vote FOR this proposal because our employee stock purchase program is an important employee benefit and is essential to attracting, retaining and motivating our employees."""
